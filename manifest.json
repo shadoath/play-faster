@@ -3,14 +3,22 @@
   "name": "Playback Rate Unlocker",
   "version": "1.0",
   "description": "Bypasses playback rate limits on e-learning platforms",
-  "permissions": ["storage"],
+  "permissions": ["storage", "scripting", "webNavigation"],
+  "host_permissions": ["<all_urls>"],
   "action": {
     "default_popup": "popup.html"
   },
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [{
-    "matches": ["*://*.easyllama.com/*", "*://*.go1static.com/*", "*://*.mygo1.com/*"],
+    "matches": ["<all_urls>"],
     "js": ["content.js"],
     "all_frames": true,
     "run_at": "document_start"
+  }],
+  "web_accessible_resources": [{
+    "resources": ["inject.js"],
+    "matches": ["<all_urls>"]
   }]
 }
