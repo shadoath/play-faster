@@ -13,7 +13,7 @@ Chrome extension that bypasses playback speed limits on e-learning platforms (Ea
 
 1. Navigate to your e-learning course
 2. Click the extension icon
-3. Select your desired speed (2x, 2.5x, 3x, or 4x)
+3. Select your desired speed (1x, 1.5x, 2x, 2.5x, 3x, or 4x)
 
 The speed persists across page loads.
 
