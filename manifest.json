@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Playback Rate Unlocker",
+  "name": "Enhanced Video & Audio Speed Control",
   "version": "1.0",
-  "description": "Bypasses playback rate limits on e-learning platforms",
+  "description": "Enhanced playback speed control for online videos and audio. Works on YouTube, Vimeo, Loom, and most e-learning platforms.",
   "permissions": ["storage", "scripting", "webNavigation"],
   "host_permissions": ["<all_urls>"],
   "action": {
@@ -21,14 +21,18 @@
   "background": {
     "service_worker": "background.js"
   },
-  "content_scripts": [{
-    "matches": ["<all_urls>"],
-    "js": ["content.js"],
-    "all_frames": true,
-    "run_at": "document_start"
-  }],
-  "web_accessible_resources": [{
-    "resources": ["inject.js"],
-    "matches": ["<all_urls>"]
-  }]
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
