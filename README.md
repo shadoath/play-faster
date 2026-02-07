@@ -67,6 +67,8 @@ This extension:
 - ✗ Does NOT track your browsing
 - ✗ Does NOT access personal information
 
+**[Read our full Privacy Policy](PRIVACY.md)**
+
 ## Support
 
 If you encounter any issues or have suggestions, please open an issue on GitHub.

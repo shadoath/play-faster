@@ -235,18 +235,14 @@ If reviewers ask about permissions (include in store description):
 
 ## Privacy Policy
 
-If Chrome Web Store requires a privacy policy (for any data collection):
+A complete privacy policy has been created in `PRIVACY.md`.
 
-This extension does NOT:
-- Collect personal information
-- Track user behavior
-- Send data to external servers
-- Access browsing history
+**To use it in the Chrome Web Store:**
+1. Push `PRIVACY.md` to your GitHub repository
+2. Get the raw GitHub URL (e.g., `https://github.com/yourusername/faster-training/blob/master/PRIVACY.md`)
+3. Paste this URL in the "Privacy Policy" field during Chrome Web Store submission
 
-This extension DOES:
-- Store playback rate preference locally using Chrome's storage API
-- Modify video/audio playback speed on web pages
-- Access media elements on pages you visit
+**Summary:** The extension collects NO data. It only stores your playback speed preference locally on your device.
 
 ## Notes
 

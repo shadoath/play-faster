@@ -83,10 +83,12 @@ All data stays on your device. No information ever leaves your computer.
 Last updated: February 2026
 ```
 
-**Privacy Policy URL (if you need to host one):**
+**Privacy Policy URL:**
 ```
 https://github.com/yourusername/faster-training/blob/master/PRIVACY.md
 ```
+
+*(Replace `yourusername` with your actual GitHub username. Once published, you can use this URL in the Chrome Web Store privacy policy field.)*
 
 ## Promotional Text
 
