@@ -4,7 +4,10 @@
   <img src="icon-128.png" alt="PlayFaster" width="128" height="128">
 </p>
 
-A Chrome extension that provides advanced playback speed control for online videos and audio. Perfect for power users who want to watch and listen to content at their own pace.
+**Break free from the 2× limit.** PlayFaster is a Chrome extension that lets you set *any* playback speed from 0.1× to 16× on YouTube, Vimeo, Loom, corporate training portals, and more.
+
+> 🔗 **Install from the Chrome Web Store:** [chromewebstore.google.com/detail/playfaster/fppcbkhpahkbgijkdcpjgjmhpfbmfiih](https://chromewebstore.google.com/detail/playfaster/fppcbkhpahkbgijkdcpjgjmhpfbmfiih)  \
+> 🌐 **Landing page & screenshots:** [https://playfaster.app](https://playfaster.app)
 
 ## Features
 
@@ -23,16 +26,19 @@ This extension removes those limitations, giving you full control over your view
 
 ## Installation
 
-### From Source (Developer Mode)
+### Chrome Web Store (recommended)
 
-1. Open `chrome://extensions`
-2. Enable **Developer mode**
-3. Click **Load unpacked**
-4. Select this folder
+1. Open the [PlayFaster listing](https://chromewebstore.google.com/detail/playfaster/fppcbkhpahkbgijkdcpjgjmhpfbmfiih)
+2. Click **Add to Chrome** → **Add extension**
+3. Pin it if you want quick toolbar access
 
-### From Chrome Web Store
+### Manual install (developer mode)
 
-Coming soon!
+1. Clone or download this repository
+2. Open `chrome://extensions`
+3. Enable **Developer mode** (top-right toggle)
+4. Click **Load unpacked** and select the project folder
+5. The extension will appear in your toolbar immediately
 
 ## Usage
 
@@ -69,9 +75,11 @@ This extension:
 
 **[Read our full Privacy Policy](PRIVACY.md)**
 
-## Support
+## Support & links
 
-If you encounter any issues or have suggestions, please [open an issue on GitHub](https://github.com/Whiteboard-Works/play-faster/issues) or email [info@playfaster.app](mailto:info@playfaster.app).
+- Issues & feature requests: [GitHub Issues](https://github.com/Whiteboard-Works/play-faster/issues)
+- Website & screenshots: [playfaster.app](https://playfaster.app)
+- Email: [info@playfaster.app](mailto:info@playfaster.app)
 
 ## License
 
